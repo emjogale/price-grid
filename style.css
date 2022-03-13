@@ -164,7 +164,11 @@ ul {
 	.top,
 	.subs,
 	.plus-points {
-		padding: 2rem 2.5rem 2.5rem 2.5rem;
+		padding: 2.5rem;
+	}
+
+	.top {
+		padding-top: 2rem;
 	}
 	p.price {
 		margin-top: 1.2rem;
