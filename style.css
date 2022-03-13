@@ -13,6 +13,12 @@
 	box-sizing: border-box;
 }
 
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
 html,
 button {
 	font-family: "Karla", sans-serif;
@@ -167,9 +173,6 @@ ul {
 		padding: 2.5rem;
 	}
 
-	.top {
-		padding-top: 2rem;
-	}
 	p.price {
 		margin-top: 1.2rem;
 	}
