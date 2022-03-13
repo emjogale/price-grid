@@ -1,0 +1,99 @@
+/* global variables */
+:root {
+	--primary-cyan: hsl(179, 62%, 43%);
+	--paler-cyan: hsl(179, 78%, 43%);
+	--primary-yellow: hsl(71, 73%, 54%);
+	--neutral-gray: hsl(204, 43%, 93%);
+	--neutral-blue: hsl(218, 22%, 67%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Karla", sans-serif;
+	font-size: 16px;
+	color: var(--dark-blue);
+}
+
+/* visually hidden */
+.sr-only {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+/* container styles */
+.container {
+	min-height: 100vh;
+	padding: 4rem 2rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+}
+
+/* component styles */
+.component {
+	box-shadow: 3px 4px 40px 0px rgba(0, 81, 171, 0.1488);
+}
+
+/* top-section styles */
+.top {
+	padding: 1.5rem;
+}
+h1 {
+	color: var(--primary-cyan);
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-top: 0.25rem;
+	margin-bottom: 1.5rem;
+}
+
+h2 {
+	line-height: 1.25 rem;
+}
+
+p {
+	font-size: 0.85rem;
+	line-height: 26px;
+	font-weight: 400;
+	color: var(--neutral-blue);
+}
+
+p.guarantee {
+	font-size: 15px;
+	color: var(--primary-yellow);
+}
+
+/* bottom-section styles */
+.bottom {
+	color: white;
+}
+
+.bottom p {
+	color: white;
+}
+
+.subs {
+	background-color: var(--primary-cyan);
+	padding: 1.5rem;
+}
+
+.plus-points {
+	padding: 1.5rem;
+	background-color: var(--paler-cyan);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
