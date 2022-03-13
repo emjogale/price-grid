@@ -152,9 +152,8 @@ ul {
 	.bottom {
 		display: flex;
 	}
-	.subs,
-	.plus-points {
-		flex-grow: 1;
+	.bottom > * {
+		flex: 1 1 0;
 	}
 	h1 {
 		font-size: 1.5rem;
@@ -171,8 +170,5 @@ ul {
 	}
 	p.price {
 		margin-top: 0.9rem;
-	}
-	.plus-points {
-		padding-right: 1rem;
 	}
 }
