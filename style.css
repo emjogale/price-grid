@@ -13,7 +13,8 @@
 	box-sizing: border-box;
 }
 
-html {
+html,
+button {
 	font-family: "Karla", sans-serif;
 	font-size: 16px;
 	color: var(--dark-blue);
@@ -32,17 +33,20 @@ html {
 /* container styles */
 .container {
 	min-height: 100vh;
-	padding: 4rem 2rem;
+	padding: 2rem 2rem;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: left;
+	background-color: var(--neutral-gray);
 }
 
 /* component styles */
 .component {
 	box-shadow: 3px 4px 40px 0px rgba(0, 81, 171, 0.1488);
+	background-color: white;
+	border-radius: 6px;
 }
 
 /* top-section styles */
@@ -99,14 +103,21 @@ p.guarantee {
 .price span {
 	font-size: 1rem;
 	font-weight: 400;
+	color: var(--neutral-blue);
 	margin-left: 0.7rem;
 }
 
+p.access {
+	margin-bottom: 1.5rem;
+}
+
 button {
-	margin: 2rem auto;
+	margin: 0 auto;
 	width: 100%;
 	padding: 1rem 0;
 	background-color: var(--primary-yellow);
+	border-radius: 6px;
+	border: none;
 }
 
 .plus-points {
