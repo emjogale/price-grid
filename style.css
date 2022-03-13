@@ -104,7 +104,6 @@ p.guarantee {
 .price span {
 	font-size: 1rem;
 	font-weight: 400;
-	color: var(--neutral-blue);
 	margin-left: 0.7rem;
 }
 
@@ -169,6 +168,6 @@ ul {
 		padding: 2rem 2.5rem 2.5rem 2.5rem;
 	}
 	p.price {
-		margin-top: 0.9rem;
+		margin-top: 1rem;
 	}
 }
