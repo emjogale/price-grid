@@ -115,6 +115,7 @@ p.access {
 button {
 	margin: 0 auto;
 	width: 100%;
+	max-width: 240px;
 	padding: 1rem 0;
 	background-color: var(--primary-yellow);
 	border-radius: 6px;
@@ -126,6 +127,7 @@ button {
 button:hover {
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
 		rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	cursor: pointer;
 }
 .plus-points {
 	padding: 1.5rem;
@@ -139,4 +141,38 @@ ul {
 	padding-top: 1rem;
 	font-size: 0.9rem;
 	line-height: 20px;
+}
+
+/* wider screen styles */
+@media only screen and (min-width: 750px) {
+	.component {
+		max-width: 635px;
+		margin: 0 auto;
+	}
+	.bottom {
+		display: flex;
+	}
+	.subs,
+	.plus-points {
+		flex-grow: 1;
+	}
+	h1 {
+		font-size: 1.5rem;
+	}
+	p.guarantee {
+		font-size: 1.1rem;
+		margin-bottom: 0.75rem;
+	}
+
+	.top,
+	.subs,
+	.plus-points {
+		padding: 2rem 2.5rem 2.5rem 2.5rem;
+	}
+	p.price {
+		margin-top: 0.9rem;
+	}
+	.plus-points {
+		padding-right: 1rem;
+	}
 }
